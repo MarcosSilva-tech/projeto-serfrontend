@@ -1,0 +1,138 @@
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to bottom, black, rgb(5, 33, 73));
+}
+
+.hero {
+    background-image: url('imagens/banner4.webp');
+    height: 550px;
+    background-size: cover;
+    padding-top: 1px;
+    background-position: center;
+}
+
+.hero-content {
+    text-align: center;
+    margin: 80px auto 0px;
+    width: 80%;
+
+}
+
+.hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgb(174, 0, 255);
+    padding-top: 55px;
+}
+
+.hero-content p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 8px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+}
+
+.hero nav ul {
+    padding: 20px 50px 0 0;
+    text-align: center;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+.hero nav a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.hero .youtube {
+    color: red;
+    font-weight: bold;
+}
+
+.hero .linkedin {
+    color: rgb(3, 205, 255);
+    font-weight: bold;
+}
+
+.hero nav a:hover {
+    background-color: rgba(74, 2, 102, 0.76);
+    transition: 0.5s;
+
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    max-width: 950px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 55px;
+    margin-bottom: 55px;
+    margin-top: 55px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+article h3 {
+    text-decoration: underline;
+}
+
+article a {
+    display: inline-block;
+    background-color: rgba(139, 139, 139, 0.521);
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: blue;
+}
+
+article a:hover {
+    background-color: rgba(148, 148, 148, 0.897);
+    transition: 0.5s;
+}
+
+img {
+    height: 300px;
+    width: 275px;
+    float: left;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px rgba(174, 0, 255, 0.726);
+}
+
