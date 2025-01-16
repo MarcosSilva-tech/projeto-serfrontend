@@ -1,3 +1,3 @@
 # projeto-serfrontend
- Informações úteis sobre linguagens para Frontend!
+ Informações úteis sobre linguagens para Frontend! 📚
 
