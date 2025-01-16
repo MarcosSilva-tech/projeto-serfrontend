@@ -39,6 +39,7 @@ body {
 .hero nav ul {
     padding: 20px 50px 0 0;
     text-align: center;
+    margin-top: 55px;
 }
 
 .hero nav li {
@@ -50,7 +51,7 @@ body {
 
 .hero nav a {
     display: block;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     padding: 12px;
     text-decoration: none;
